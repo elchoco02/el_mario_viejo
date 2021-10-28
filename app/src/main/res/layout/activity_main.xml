@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.3"
+        android:id="@+id/box1"/>
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/box1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/box2"/>
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/box3"/>
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/box3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        android:id="@+id/box4"/>
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/box1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.221"
+        android:id="@+id/box5"/>
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/box1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/black"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.3"
+        android:id="@+id/box6"/>
+
+    <View
+        android:id="@+id/box7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/box6"
+        app:layout_constraintTop_toBottomOf="@id/box2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/box8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/box7"
+        app:layout_constraintTop_toBottomOf="@id/box3"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/box9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/box8"
+        app:layout_constraintTop_toBottomOf="@id/box4"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/box10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/box9"
+        app:layout_constraintTop_toBottomOf="@id/box4"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/box11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/box10"
+        app:layout_constraintTop_toBottomOf="@id/box4"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/box12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/box11"
+        app:layout_constraintTop_toBottomOf="@id/box4"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/boxC1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/box5"
+        app:layout_constraintVertical_bias="0" />
+
+    <View
+        android:id="@+id/boxC2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxC1"
+        app:layout_constraintTop_toBottomOf="@id/box5"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxC3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxC2"
+        app:layout_constraintTop_toBottomOf="@id/box6"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxS1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxC3"
+        app:layout_constraintTop_toBottomOf="@id/box7"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/boxE2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/whitesmoke"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxS1"
+        app:layout_constraintTop_toBottomOf="@id/box8"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/boxO1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/ojo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxE2"
+        app:layout_constraintTop_toBottomOf="@id/box9"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/boxS2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxO1"
+        app:layout_constraintTop_toBottomOf="@id/box10"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <View
+        android:id="@+id/boxC6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/boxC4"
+        app:layout_constraintVertical_bias="0" />
+
+    <View
+        android:id="@+id/boxX6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxC6"
+        app:layout_constraintTop_toBottomOf="@id/boxX5"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxC7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxX6"
+        app:layout_constraintTop_toBottomOf="@id/boxC5"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxC8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxC7"
+        app:layout_constraintTop_toBottomOf="@id/boxS4"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxS8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxC8"
+        app:layout_constraintTop_toBottomOf="@id/boxS5"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxS9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxS8"
+        app:layout_constraintTop_toBottomOf="@id/boxE3"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxS10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxS9"
+        app:layout_constraintTop_toBottomOf="@id/boxE4"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxS11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxS10"
+        app:layout_constraintTop_toBottomOf="@id/boxS6"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxS12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxS11"
+        app:layout_constraintTop_toBottomOf="@id/boxS7"
+        app:layout_constraintVertical_bias="0" />
+
+
+
+    <View
+        android:id="@+id/boxS13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxS12"
+        app:layout_constraintTop_toBottomOf="@id/boxS7"
+        app:layout_constraintVertical_bias="0" />
+
+
+    <View
+        android:id="@+id/boxC9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/boxC6"
+        app:layout_constraintVertical_bias="0" />
+
+    <View
+        android:id="@+id/boxC10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxC9"
+        app:layout_constraintTop_toBottomOf="@id/boxX6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/boxS14"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxC10"
+        app:layout_constraintTop_toBottomOf="@id/boxX6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/boxS15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxS14"
+        app:layout_constraintTop_toBottomOf="@id/boxC8"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/boxS16"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxS15"
+        app:layout_constraintTop_toBottomOf="@id/boxS8"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxS17"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxS16"
+        app:layout_constraintTop_toBottomOf="@id/boxS9"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxB1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxS17"
+        app:layout_constraintTop_toBottomOf="@id/boxS10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/boxB2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxB1"
+        app:layout_constraintTop_toBottomOf="@id/boxS11"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/boxB3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxB2"
+        app:layout_constraintTop_toBottomOf="@id/boxS12"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <View
+        android:id="@+id/boxs18"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/boxS14"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/boxs19"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@id/boxs18"
+        app:layout_constraintTop_toBottomOf="@id/boxS15"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxs20"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxs19"
+        app:layout_constraintTop_toBottomOf="@id/boxS15"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxs21"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxs20"
+        app:layout_constraintTop_toBottomOf="@id/boxS16"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxs22"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@id/boxs21"
+        app:layout_constraintTop_toBottomOf="@id/boxS16"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxs23"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxs22"
+        app:layout_constraintTop_toBottomOf="@id/boxS17"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxs24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxs23"
+        app:layout_constraintTop_toBottomOf="@id/boxB1"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxs25"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxs24"
+        app:layout_constraintTop_toBottomOf="@id/boxB2"
+        app:layout_constraintVertical_bias="0" />
+/////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////
+    <View
+        android:id="@+id/boxC4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/boxC1"
+        app:layout_constraintVertical_bias="0" />
+
+    <View
+        android:id="@+id/boxX5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxC4"
+        app:layout_constraintTop_toBottomOf="@id/boxC1"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxC5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxX5"
+        app:layout_constraintTop_toBottomOf="@id/boxC2"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxS4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxC5"
+        app:layout_constraintTop_toBottomOf="@id/boxC3"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxS5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/boxS4"
+        app:layout_constraintTop_toBottomOf="@id/boxS1"
+        app:layout_constraintVertical_bias="0" />
+    <View
+        android:id="@+id/boxE3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/whitesmoke"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxS5"
+        app:layout_constraintTop_toBottomOf="@id/boxE2"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/boxE4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/ojo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxE3"
+        app:layout_constraintTop_toBottomOf="@id/boxO1"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/boxS6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxE4"
+        app:layout_constraintTop_toBottomOf="@id/boxS2"
+        app:layout_constraintVertical_bias="0.0" />
+    <View
+        android:id="@+id/boxS7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/skin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/boxS6"
+        app:layout_constraintTop_toBottomOf="@id/boxS2"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
